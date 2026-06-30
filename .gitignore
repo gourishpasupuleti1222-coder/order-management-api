@@ -1,0 +1,41 @@
+# Virtual environment
+venv/
+.venv/
+
+# Environment and secret files
+.env
+.env.docker
+.env.*
+
+# Allow example environment files
+!.env.example
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Pytest files
+.pytest_cache/
+
+# Type-checking and coverage files
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Local databases
+order_management.db
+test_order_management.db
+*.sqlite
+*.sqlite3
+
+# Local data
+data/
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
